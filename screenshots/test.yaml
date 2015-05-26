@@ -1,0 +1,8 @@
+setup: ./run.py
+
+waitFor:
+  url: http://localhost:5000/
+
+tests:
+  - name: screenshot
+    url: http://localhost:5000/
